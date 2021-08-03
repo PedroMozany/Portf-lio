@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Respsonsive Navbar</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/card.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <header class="main-header">
+      <div class="logo">
+        <a href="#"
+          ><img src="img/logo.png" alt="logo" style="width: 150px"
+        /></a>
+      </div>
+
+      <input type="checkbox" class="menu-btn" id="menu-btn" />
+      <label for="menu-btn" class="menu-icon">
+        <span class="menu-icon__line"></span>
+      </label>
+
+      <ul class="nav-links">
+        <li class="nav-link">
+          <a href="#Hero">Home</a>
+        </li>
+        <li class="nav-link">
+          <a href="#Portfólio">Portfólio</a>
+        </li>
+        <li class="nav-link">
+          <a href="#Serviço">Serviço</a>
+        </li>
+        <li class="nav-link">
+          <a href="#Contato">contato</a>
+        </li>
+      </ul>
+    </header>
+
+    <main class="main">
+      <div class="hero" id="Hero">
+        <div id="titulo">
+          <h1>Pedro Mozany</h1>
+
+          <div class="container">
+            <p>
+              Desenvolvedor <span class="typed-text"></span
+              ><span class="cursor">&nbsp;</span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <section class="Portfólio" id="Portfólio">
+        <h1>Portfólio</h1>
+        <div class="blog-card">
+          <div class="meta">
+            <div
+              class="photo"
+              style="background-image: url(img/port\ movie.png)"
+              
+            ></div>
+            <ul class="details">
+              <li class="author">
+                <a href="https://moviePortweb.pedromozany.repl.co"
+                  >Pode ser visto aqui</a
+                >
+              </li>
+              <li class="date">June. 24, 2021</li>
+              <li class="tags">
+                <ul>
+                  <li><a>JavaScript</a></li>
+                  <li><a>Code</a></li>
+                  <li><a>HTML</a></li>
+                  <li><a>CSS</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="description">
+            <h2>Portal de Filme</h2>
+            <p>
+              Este é um portal de filmes desenvolvido por Pedro Mozany aluno do
+              curso de Sistemas da Informação PUC-MINAS para a disciplina de
+              Desenvolvimento de Interface Web. Esse projeto foi realizado para
+              o aplicar os ensinamento que obteve no curso testando as práticas
+              e conceitos em HTML,CSS,JS,. O site simula uma experiência real de
+              um acesso ao um blog de Filmes.
+            </p>
+            <p class="read-more">
+              <a href="https://github.com/PedroMozany/Portal-Filmel"
+                ><i class="fab fa-github"></i
+              ></a>
+            </p>
+          </div>
+        </div>
+        <div class="blog-card alt">
+          <div class="meta">
+            <div
+              class="photo"
+              style="background-image: url(img/Frame.png)"
+            ></div>
+            <ul class="details">
+              <li class="author">
+                <a href="https://quirky-shannon-aecb85.netlify.app/index.html."
+                  >Pode ser visto aqui</a
+                >
+              </li>
+              <li class="date">July. 15, 2020</li>
+              <li class="tags">
+                <ul>
+                  <li><a href="#">Api googleMaps</a></li>
+                  <li><a href="#">JavaScript</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="description">
+            <h2>Ciclo Bike</h2>
+            <p>
+              Esse trabalho foi desenvolvido em grupo para demonstrar
+              habilidades adquiridas em HTML,CSS,JavaScript para disciplina
+              Trabalho Interdisciplinar: Aplicações WEb PUC-Minas.
+            </p>
+            <video width="320" height="240" controls="controls">
+              <source
+                src="video/apresentação cicloBike ‐ Made with Clipchamp (1).mp4"
+                type="video/mp4"
+              />
+              <object data="" width="320" height="240">
+                <embed
+                  width="320"
+                  height="240"
+                  src="video/apresentação cicloBike ‐ Made with Clipchamp (1).mp4"
+                />
+              </object>
+            </video>
+            <p class="read-more">
+              <a href="https://github.com/PedroMozany/Mobile-ClicloBike"
+                ><i class="fab fa-github"></i
+              ></a>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="Serviço" id="Serviço">
+        <h1>Serviço</h1>
+        <div class="serviço">
+          <ul class="cards">
+            <li class="cards_item">
+              <div class="card">
+                <div class="card_image"><img src="https://picsum.photos/500/300/?image=5"></div>
+                <div class="card_content">
+                  <h2 class="card_title">Criação de Sites</h2>
+                  <p class="card_text">Desenvolvedor de Sites, HotSites,em HTML, CSS, JavaScript, MySql.</p>
+                </div>
+              </div>
+            </li>
+            <li class="cards_item">
+              <div class="card">
+                <div class="card_image"><img src="https://picsum.photos/500/300/?image=2"></div>
+                <div class="card_content">
+                  <h2 class="card_title">Desenvolvedor Front-End</h2>
+                  <p class="card_text">Em HTML5, JavaScript, CSS, jQuery, BootStrap, React.js, Vue.js.</p>
+      
+                </div>
+              </div>
+              <li class="cards_item">
+                <div class="card">
+                  <div class="card_image"><img src="img/as-habilidades-desenvolvedores-2020.jpg"></div>
+                  <div class="card_content">
+                    <h2 class="card_title">Desenvolvedor Back-End</h2>
+                    <p class="card_text">
+                    JavaScript, Java, Python
+                    </p>
+                    <p class="card_text">
+                   
+                      </p>
+                  </div>
+                </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="Contato" id="Contato">
+        <h1>Contato</h1>
+        <h2>Envie uma mensagem</h2>
+           <span>
+          <i class="fas fa-envelope-open-text"></i
+          ><strong>E-mail: </strong>pedro.mozanny@gmail.com
+        </span><br/>
+        <span>
+          <i class="fas fa-phone"></i><strong>Telefone: </strong>(31) 99489-3112
+        </span><br/>
+<span>
+  <a href="https://github.com/PedroMozany?tab=repositories"><i class="fab fa-github"></i></a>
+<a href="https://www.linkedin.com/in/pedro-mozany-de-almeida-6b0bb61ba/"><i class="fab fa-linkedin"></i></a>
+</span>
+
+
+      </section>
+    </main>
+    <footer class="footer">
+      <span>
+        Desenvolvido com <i class="fas fa-heart"></i> por
+        <strong>Pedro<span className="text-danger">Mozany</span></strong>
+      </span>
+    </footer>
+    <script src="app.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
